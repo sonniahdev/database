@@ -6,11 +6,9 @@ data = {'color': 'purple',
 }
 
 
-for soniah in data:
-    print(soniah)
 
 
-num = 1
-while num <= 10:
-    print(num)
-    num +=1
+for key in data :
+    value = data[key]
+    print(key + '=' + str(value))
+
